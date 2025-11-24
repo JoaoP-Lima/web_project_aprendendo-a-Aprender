@@ -1,0 +1,56 @@
+.kaufman {
+  background-color: #1F1F1F;
+  padding: 90px 0;
+  position: relative;
+  overflow: hidden;
+
+}
+
+.kaufman .section-title {
+  width: 60%;
+
+  z-index: 1;
+  text-align: center;
+  margin: 0 auto 20px auto ;
+}
+
+.kaufman .section-subtitle {
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+
+
+}
+
+.kaufman .table {
+  gap: 20px;
+
+
+}
+
+.kaufman .table__cell {
+  width: 200px;
+  margin-top: 80px;
+  z-index: 1;
+}
+
+.section-title_theme_dark {
+  color: white;
+}
+
+.section-subtitle_theme_dark {
+  color: white;
+}
+
+.table__cell_theme_dark {
+    color: white;
+}
+
+.kaufman__triangle {
+  position: absolute;
+top:0;
+  right: -124px;
+  z-index: 0;
+  width: 660px;
+  height: 636px;
+}
